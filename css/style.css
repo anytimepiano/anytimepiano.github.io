@@ -598,6 +598,39 @@ body:after {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
 
+/* navigation subtitles */
+
+    .site-navigation ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+    .site-navigation ul li {
+      display: inline-block;
+      margin: 0 1em;
+    }
+    .site-navigation ul li a {
+      display: inline-block;
+      padding: .2em 1em;
+      color: #333;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      line-height: 1;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .site-navigation ul li a::after {
+      content: attr(data-text);
+      display: block;
+      margin-top: .7em;
+      color: #aaa;
+      font-size: 11px;
+    }
+
+
+
 /* Blocks */
 .site-blocks-cover {
   background-size: cover;
