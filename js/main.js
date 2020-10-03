@@ -20,6 +20,15 @@ jQuery(document).ready(function($) {
 			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
 		});
 
+		$('.site-mobile-menu-body .site-nav-wrap').children('li').each(function() {
+			var dataText = $(this).find('a').data('text');
+			var dataSpan = '<span class="sp-subtitle">'+ dataText + '</span>';
+			$(this).find('a').append(dataSpan);
+		});
+
+		$('.site-mobile-menu-body .site-nav-wrap a').on('click',function() {
+			$('.js-menu-toggle').first().click();
+		});
 
 		setTimeout(function() {
 			

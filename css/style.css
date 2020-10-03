@@ -1060,3 +1060,10 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+
+.sp-subtitle {
+  padding-left: 8px;
+  font-size: 14px;
+  color: darkgrey;
+  font-weight: 600;
+}
