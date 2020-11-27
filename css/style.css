@@ -298,9 +298,9 @@ body:after {
   width: 100%;
   border-bottom: rgba(255, 255, 255, 0.7); }
   .site-navbar .site-logo {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
     .site-navbar .site-logo a {
-      border: 4px solid #fff;
+      border: 4px solid #000;
       display: inline-block;
       padding: 5px 10px; }
   .site-navbar .site-navigation .site-menu {
@@ -572,7 +572,7 @@ body:after {
   .sticky-wrapper .site-navbar .site-menu-toggle {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-logo a {
-    color: #fff; }
+    color: #000; }
   .sticky-wrapper .site-navbar .site-menu > li > a {
     color: #fff; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
@@ -585,7 +585,7 @@ body:after {
     .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo {
-      font-size: 1.5rem; }
+      font-size: 1rem; }
       .sticky-wrapper.is-sticky .site-navbar .site-logo a {
         border: 4px solid #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -641,7 +641,7 @@ body:after {
   position: relative; }
   .site-blocks-cover .lead {
     font-family: "Jost", sans-serif;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     color: #1a1a1a; }
   .site-blocks-cover.overlay {
     position: relative; }
@@ -664,7 +664,7 @@ body:after {
     position: relative;
     z-index: 2; }
   .site-blocks-cover h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Jost", sans-serif; }
   .site-blocks-cover .img-face {
     position: absolute;
